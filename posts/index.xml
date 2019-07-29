@@ -6,10 +6,19 @@
     <description>Recent content in Posts on 越仔的救赎</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 16 Jul 2019 19:05:51 +0800</lastBuildDate>
+    <lastBuildDate>Mon, 22 Jul 2019 18:22:18 +0800</lastBuildDate>
     
 	<atom:link href="http://example.org/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Golang学习的一些心得体会</title>
+      <link>http://example.org/posts/study_list/</link>
+      <pubDate>Mon, 22 Jul 2019 18:22:18 +0800</pubDate>
+      
+      <guid>http://example.org/posts/study_list/</guid>
+      <description>一个学习焦虑症患者的内心独白。希望能静下心来学习，找到一份心仪的工作。</description>
+    </item>
     
     <item>
       <title>Restart</title>
