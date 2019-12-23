@@ -20,5 +20,14 @@
       <description></description>
     </item>
     
+    <item>
+      <title>Kubernetes</title>
+      <link>http://example.org/categories/kubernetes/</link>
+      <pubDate>Thu, 12 Dec 2019 13:49:09 +0800</pubDate>
+      
+      <guid>http://example.org/categories/kubernetes/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>
