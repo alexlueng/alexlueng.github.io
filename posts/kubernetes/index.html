@@ -11,8 +11,8 @@
 <meta property="og:description" content="Kubernetes入门之旅以及一周总结" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="http://example.org/posts/kubernetes/" />
-<meta property="article:published_time" content="2019-12-12T13:49:09&#43;08:00"/>
-<meta property="article:modified_time" content="2019-12-12T13:49:09&#43;08:00"/>
+<meta property="article:published_time" content="2019-12-22T13:49:09&#43;08:00"/>
+<meta property="article:modified_time" content="2019-12-22T13:49:09&#43;08:00"/>
 
 	
 	<link rel="dns-prefetch" href="//fonts.googleapis.com">
@@ -46,7 +46,7 @@
 			<div class="post__meta meta">
 <div class="meta__item-datetime meta__item">
 	<svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 30 28"><path d="M15 0C7 0 1 6 1 14s6 14 14 14 14-6 14-14S23 0 15 0zm0 25C9 25 4 20 4 14S9 3 15 3s11 5 11 11-5 11-11 11zm1-18h-2v8.4l6.8 4.4L22 18l-6-3.8V7z"/></svg>
-	<time class="meta__text" datetime="2019-12-12T13:49:09">December 12, 2019</time>
+	<time class="meta__text" datetime="2019-12-22T13:49:09">December 22, 2019</time>
 </div>
 
 <div class="meta__item-categories meta__item">
@@ -64,6 +64,45 @@
 <p>这一周的主要工作就是把Kubernetes再深入地学习一下，然后把简历重新做一份，然后就继续去找工作了。</p>
 
 <p>先记着一些流水帐吧反正这里只是无人之境。</p>
+
+<p>==========================================================================================</p>
+
+<p>（12月24日更新）</p>
+
+<p>在知乎上看到一个关于Kubernetes入门的答案，觉得很有意义，特此转载过来。</p>
+
+<p>作者：Keen Wang
+链接：<a href="https://www.zhihu.com/question/329124807/answer/723463887">https://www.zhihu.com/question/329124807/answer/723463887</a>
+来源：知乎
+著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。</p>
+
+<p>如果你认为的搭个环境，能跑个hello world的demo就算是入门，那么当我没说。一个没有任务Linux基础的人，只要能盲打键盘。我给他一个一张A4纸就能写完的文档，他照样能把K8S拉起来，并跑Hello World。这样又有什么意义？</p>
+
+<p>Kubernetes的出现是大型互联网公司（Google）在非常庞大的微服务体系下，为了降低维护成本，为了提高维护效率，提高交付效率，更重要是为了服务自治不断思考和实践才开发出来的。IT行业的技术革新，总是会有先驱者为我们艰辛的躺平道路，然后我们再站在巨人的肩膀上借得更高的视野。但是现在很多人都被眼前的树叶给遮挡了。</p>
+
+<p>Kubernetes是什么？它不是简单的master/worker，controller/apiserver/etcd/scheduler等等一些二进制及配置文件。也不仅仅是pod/deployment/service/daemonset等等一些部署单元，也更不是一个简单的PAAS平台。它是一个体系，包含了软件工程管理、软件开发模型和理念、项目管理、架构设计、运维管理、交付管理等等，除此之外才是一个类PAAS平台。</p>
+
+<p>好了，牢骚发完了，言归正传。如果要真正能了解Kubernetes，除了学习基础的Linux，你还需要了解什么才算入门？</p>
+
+<ol>
+<li><p>微服务架构，及微服务能解决的问题</p></li>
+
+<li><p>对应微服务的语言生态，如JAVA、GO、Python等</p></li>
+
+<li><p>基础的软件配置管理，如代码管理、CI/CD、版本管理</p></li>
+
+<li><p>基础的生产维护管理，如变更管理、流程管理、监控、成本管理等</p></li>
+
+<li><p>其它运维知识，如基础网络、中间件、运维工具等</p></li>
+</ol>
+
+<p>而上面这些是需要实际工作经验，而且需要多方了解才能积累的，纯粹靠自学是学不来的。了解上面这些知识后，你再回过头来看Kubernetes。你才能明白它为什么这么设计；也才能明白每个资源对象在什么场景使用；也才能明白Kubernetes中配置管理、变更管理怎么做，与传统虚拟机部署方式有什么不同；也才能明白信息收集及故障排错怎么做。</p>
+
+<p>如果一个Kubernetes的运维人员对以上这些不了解，那么在实际的维护过程中只能算一个操作工，必须参照手册或者由高级工程师指导才能干活。我见过不少将K8S当前虚拟机用的人；见过尝试在一个pod中把mysql/redis/java全跑起来的人；见过上了K8S后服务崩溃，找不到日志的人；更见过很多为了赶时髦，没有充足准备而强上K8S，最后造成生产事故连连的人。</p>
+
+<p>说实话，看到这个答案的时候，我是有点失落的，毕竟还以为自己如果能努力一番，就能掌握Kubernetes。但是仔细想想，这个答案说得很对，真的不是说搭出一个Kubernetes集群跑一个helloworld就能说入门的。看着刚买的Kubernetes权威指南，心里有一些惆怅，但我也知道，即使我看完了这900多页书，我也不敢说我会Kubernetes。</p>
+
+<p>但是现在，我很迷茫。我又不知该干嘛了。</p>
 
 		</div>
 		
@@ -90,10 +129,7 @@
 
 <nav class="post-nav flex">
 	<div class="post-nav__item post-nav__item--prev">
-		<a class="post-nav__link" href="/posts/study_list/" rel="prev"><span class="post-nav__caption">«&thinsp;Previous</span><p class="post-nav__post-title">Golang学习的一些心得体会</p></a>
-	</div>
-	<div class="post-nav__item post-nav__item--next">
-		<a class="post-nav__link" href="/posts/interview/" rel="next"><span class="post-nav__caption">Next&thinsp;»</span><p class="post-nav__post-title">面试总结以及一些辛酸泪</p></a>
+		<a class="post-nav__link" href="/posts/interview/" rel="prev"><span class="post-nav__caption">«&thinsp;Previous</span><p class="post-nav__post-title">面试总结以及一些辛酸泪</p></a>
 	</div>
 </nav>
 
