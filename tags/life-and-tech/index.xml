@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Life and Tech on 越仔的救赎</title>
@@ -6,11 +6,7 @@
     <description>Recent content in Life and Tech on 越仔的救赎</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 31 Dec 2019 13:49:09 +0800</lastBuildDate>
-    
-	<atom:link href="http://example.org/tags/life-and-tech/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Tue, 31 Dec 2019 13:49:09 +0800</lastBuildDate><atom:link href="http://example.org/tags/life-and-tech/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>2019年度总结</title>
       <link>http://example.org/posts/conclusion/</link>
