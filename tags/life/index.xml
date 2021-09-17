@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>life on 越仔的救赎</title>
+    <link>http://example.org/tags/life/</link>
+    <description>Recent content in life on 越仔的救赎</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 12 Sep 2021 00:00:00 +0000</lastBuildDate><atom:link href="http://example.org/tags/life/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>这两年</title>
+      <link>http://example.org/posts/twoyears/</link>
+      <pubDate>Sun, 12 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/posts/twoyears/</guid>
+      <description>这个博客又荒废了两年</description>
+    </item>
+    
+  </channel>
+</rss>
