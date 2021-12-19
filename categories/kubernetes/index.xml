@@ -1,20 +1,14 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Kubernetes on 越仔的救赎</title>
-    <link>http://example.org/categories/kubernetes/</link>
-    <description>Recent content in Kubernetes on 越仔的救赎</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Sun, 22 Dec 2019 13:49:09 +0800</lastBuildDate><atom:link href="http://example.org/categories/kubernetes/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Kubernetes学习</title>
-      <link>http://example.org/posts/kubernetes/</link>
-      <pubDate>Sun, 22 Dec 2019 13:49:09 +0800</pubDate>
-      
-      <guid>http://example.org/posts/kubernetes/</guid>
-      <description>Kubernetes入门之旅以及一周总结</description>
-    </item>
-    
-  </channel>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Kubernetes - Category - 越仔的救赎</title>
+        <link>http://example.org/categories/kubernetes/</link>
+        <description>Kubernetes - Category - 越仔的救赎</description>
+        <generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sun, 22 Dec 2019 13:49:09 &#43;0800</lastBuildDate><atom:link href="http://example.org/categories/kubernetes/" rel="self" type="application/rss+xml" /><item>
+    <title>Kubernetes学习</title>
+    <link>http://example.org/posts/kubernetes/</link>
+    <pubDate>Sun, 22 Dec 2019 13:49:09 &#43;0800</pubDate><author>
+        <name>Alex Lueng</name>
+    </author><guid>http://example.org/posts/kubernetes/</guid>
+    <description><![CDATA[Kubernetes入门之旅以及一周总结]]></description>
+</item></channel>
 </rss>
