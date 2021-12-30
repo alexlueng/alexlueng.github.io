@@ -3,7 +3,14 @@
         <title>Categories - Category - 越仔的救赎</title>
         <link>http://example.org/categories/</link>
         <description>Categories - Category - 越仔的救赎</description>
-        <generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sat, 18 Dec 2021 00:00:00 &#43;0000</lastBuildDate><atom:link href="http://example.org/categories/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Tue, 28 Dec 2021 00:00:00 &#43;0000</lastBuildDate><atom:link href="http://example.org/categories/" rel="self" type="application/rss+xml" /><item>
+    <title>golang</title>
+    <link>http://example.org/categories/golang/</link>
+    <pubDate>Tue, 28 Dec 2021 00:00:00 &#43;0000</pubDate><author>
+        <name>Alex Lueng</name>
+    </author><guid>http://example.org/categories/golang/</guid>
+    <description><![CDATA[]]></description>
+</item><item>
     <title>daily</title>
     <link>http://example.org/categories/daily/</link>
     <pubDate>Sat, 18 Dec 2021 00:00:00 &#43;0000</pubDate><author>
@@ -23,13 +30,6 @@
     <pubDate>Sun, 22 Dec 2019 13:49:09 &#43;0800</pubDate><author>
         <name>Alex Lueng</name>
     </author><guid>http://example.org/categories/kubernetes/</guid>
-    <description><![CDATA[]]></description>
-</item><item>
-    <title>Golang</title>
-    <link>http://example.org/categories/golang/</link>
-    <pubDate>Sun, 15 Dec 2019 13:49:09 &#43;0800</pubDate><author>
-        <name>Alex Lueng</name>
-    </author><guid>http://example.org/categories/golang/</guid>
     <description><![CDATA[]]></description>
 </item></channel>
 </rss>
