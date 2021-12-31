@@ -20,7 +20,7 @@
 
 <meta name="theme-color" content="#f8f8f8"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
         <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="canonical" href="http://example.org/posts/go_development_tips/" /><link rel="prev" href="http://example.org/posts/2021121/" /><link rel="stylesheet" href="/lib/normalize/normalize.min.css"><link rel="stylesheet" href="/css/style.min.css"><link rel="preload" as="style" onload="this.onload=null;this.rel='stylesheet'" href="/lib/fontawesome-free/all.min.css">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="canonical" href="http://example.org/posts/go_development_tips/" /><link rel="prev" href="http://example.org/posts/2021121/" /><link rel="next" href="http://example.org/posts/2021_conclusion/" /><link rel="stylesheet" href="/lib/normalize/normalize.min.css"><link rel="stylesheet" href="/css/style.min.css"><link rel="preload" as="style" onload="this.onload=null;this.rel='stylesheet'" href="/lib/fontawesome-free/all.min.css">
     <noscript><link rel="stylesheet" href="/lib/fontawesome-free/all.min.css"></noscript><link rel="preload" as="style" onload="this.onload=null;this.rel='stylesheet'" href="/lib/animate/animate.min.css">
     <noscript><link rel="stylesheet" href="/lib/animate/animate.min.css"></noscript><script type="application/ld+json">
     {
@@ -56,7 +56,7 @@
             <a href="/" title="越仔的救赎">越仔的救赎</a>
         </div>
         <div class="menu">
-            <div class="menu-inner"><a class="menu-item" href="/posts/"> Posts </a><a class="menu-item" href="/tags/"> Tags </a><a class="menu-item" href="/categories/"> Categories </a><a class="menu-item active" href="/posts/go_development_tips/" title="GO development tips"> GO development tips </a><a class="menu-item" href="/posts/2021121/" title="降温了"> 降温了 </a><span class="menu-item delimiter"></span><a href="#" onclick="return false;" class="menu-item theme-switch" title="Switch Theme">
+            <div class="menu-inner"><a class="menu-item" href="/posts/"> Posts </a><a class="menu-item" href="/tags/"> Tags </a><a class="menu-item" href="/categories/"> Categories </a><a class="menu-item active" href="/posts/go_development_tips/" title="GO development tips"> GO development tips </a><a class="menu-item" href="/posts/2021_conclusion/" title="我的2021"> 我的2021 </a><a class="menu-item" href="/posts/2021121/" title="降温了"> 降温了 </a><span class="menu-item delimiter"></span><a href="#" onclick="return false;" class="menu-item theme-switch" title="Switch Theme">
                     <i class="fas fa-adjust fa-fw"></i>
                 </a></div>
         </div>
@@ -71,7 +71,7 @@
                 <span></span><span></span><span></span>
             </div>
         </div>
-        <div class="menu" id="menu-mobile"><a class="menu-item" href="/posts/" title="">Posts</a><a class="menu-item" href="/tags/" title="">Tags</a><a class="menu-item" href="/categories/" title="">Categories</a><a class="menu-item" href="/posts/go_development_tips/" title="GO development tips">GO development tips</a><a class="menu-item" href="/posts/2021121/" title="降温了">降温了</a><a href="#" onclick="return false;" class="menu-item theme-switch" title="Switch Theme">
+        <div class="menu" id="menu-mobile"><a class="menu-item" href="/posts/" title="">Posts</a><a class="menu-item" href="/tags/" title="">Tags</a><a class="menu-item" href="/categories/" title="">Categories</a><a class="menu-item" href="/posts/go_development_tips/" title="GO development tips">GO development tips</a><a class="menu-item" href="/posts/2021_conclusion/" title="我的2021">我的2021</a><a class="menu-item" href="/posts/2021121/" title="降温了">降温了</a><a href="#" onclick="return false;" class="menu-item theme-switch" title="Switch Theme">
                 <i class="fas fa-adjust fa-fw"></i>
             </a></div>
     </div>
@@ -91,14 +91,30 @@
                 <i class="far fa-clock fa-fw"></i>&nbsp;One minute&nbsp;</div>
         </div><div class="content" id="content"><p>平时有在reddit论坛上看外国人民是怎么使用go语言的，今天看到一个有趣的帖子，有人在论坛上发起了go开发中一些有用的技巧的讨论，还挺有意思的，因而转载过来，有些技巧是我自己都不知道的，正好可以试试，看是否能提高开发效率，也算是一份自查列表吧。</p>
 <ol>
-<li>using Generate for creating unit tests and filling the necessary structures recursively in Goland. 在Goland中可以通过Generate来自动生成单元测试模板，然后填充核心的部分。（这个我真的不知道，一定要试试）</li>
-<li>don&rsquo;t pass channel around and instead return result. Same goes for Waitgroups. Don&rsquo;t pass them as function parameters, instead wrap them in anonymous functions. 不要将channel和waitgroups当成参数传递，而是把它们包含在匿名函数中。</li>
-<li>Don&rsquo;t write Java in go. 不要用java的思考方式来写go.</li>
-<li>I need to learn pprof and all the tooling around. I&rsquo;d like to learn more about collecting profiles. Jaegar is another tool I&rsquo;ve never used, but would like to get some experience in.Another area I don&rsquo;t really get exposed to with hobby coding is unit testing with mocks. I typically just reuse the concrete types from my business logic to test. I feel like I&rsquo;m not using interfaces or unit testing correctly.需要了解pprof和一些关于性能调优的工具，需要习惯mock单元测试的方式。</li>
-<li>Jaeger is an amazing tool, and i highly recommend it. I never ship software without jaeger and prometheus. Jaeger是个好工具，我决不会发布没有jaeger或者prometheus的工具。</li>
-<li>Vim-test makes developing TDD a breeze. vim-test让tdd像微风一样。（这是真的吗？）</li>
-<li>MVC is great in certain languages and frameworks but it doesn’t work for golang. MVC是一个好的设计构架但不适合go.</li>
-<li>If you&rsquo;re dealing with more than 1 goroutine, pass a context around as the first parameter.如果你要处理多个goroutine，传递一个context作为第一个参数。</li>
+<li>
+<p>using Generate for creating unit tests and filling the necessary structures recursively in Goland. 在Goland中可以通过Generate来自动生成单元测试模板，然后填充核心的部分。（这个我真的不知道，一定要试试）</p>
+</li>
+<li>
+<p>don&rsquo;t pass channel around and instead return result. Same goes for Waitgroups. Don&rsquo;t pass them as function parameters, instead wrap them in anonymous functions. 不要将channel和waitgroups当成参数传递，而是把它们包含在匿名函数中。</p>
+</li>
+<li>
+<p>Don&rsquo;t write Java in go. 不要用java的思考方式来写go.</p>
+</li>
+<li>
+<p>I need to learn pprof and all the tooling around. I&rsquo;d like to learn more about collecting profiles. Jaegar is another tool I&rsquo;ve never used, but would like to get some experience in.Another area I don&rsquo;t really get exposed to with hobby coding is unit testing with mocks. I typically just reuse the concrete types from my business logic to test. I feel like I&rsquo;m not using interfaces or unit testing correctly.需要了解pprof和一些关于性能调优的工具，需要习惯mock单元测试的方式。</p>
+</li>
+<li>
+<p>Jaeger is an amazing tool, and i highly recommend it. I never ship software without jaeger and prometheus. Jaeger是个好工具，我决不会发布没有jaeger或者prometheus的工具。</p>
+</li>
+<li>
+<p>Vim-test makes developing TDD a breeze. vim-test让tdd像微风一样。（这是真的吗？）</p>
+</li>
+<li>
+<p>MVC is great in certain languages and frameworks but it doesn’t work for golang. MVC是一个好的设计构架但不适合go.</p>
+</li>
+<li>
+<p>If you&rsquo;re dealing with more than 1 goroutine, pass a context around as the first parameter.如果你要处理多个goroutine，传递一个context作为第一个参数。</p>
+</li>
 </ol>
 <p>目前觉得有用的就这些，还有一些其他的tips, 以后觉得好的话再补充吧。</p>
 </div>
@@ -126,7 +142,8 @@
         </section>
     </div>
 
-    <div class="post-nav"><a href="/posts/2021121/" class="prev" rel="prev" title="降温了"><i class="fas fa-angle-left fa-fw"></i>降温了</a></div>
+    <div class="post-nav"><a href="/posts/2021121/" class="prev" rel="prev" title="降温了"><i class="fas fa-angle-left fa-fw"></i>降温了</a>
+            <a href="/posts/2021_conclusion/" class="next" rel="next" title="我的2021">我的2021<i class="fas fa-angle-right fa-fw"></i></a></div>
 </div>
 </article></div>
         </main><footer class="footer">

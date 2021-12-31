@@ -3,7 +3,14 @@
         <title>Tags - Tag - 越仔的救赎</title>
         <link>http://example.org/tags/</link>
         <description>Tags - Tag - 越仔的救赎</description>
-        <generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Tue, 28 Dec 2021 00:00:00 &#43;0000</lastBuildDate><atom:link href="http://example.org/tags/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Fri, 31 Dec 2021 00:00:00 &#43;0000</lastBuildDate><atom:link href="http://example.org/tags/" rel="self" type="application/rss+xml" /><item>
+    <title>life</title>
+    <link>http://example.org/tags/life/</link>
+    <pubDate>Fri, 31 Dec 2021 00:00:00 &#43;0000</pubDate><author>
+        <name>Alex Lueng</name>
+    </author><guid>http://example.org/tags/life/</guid>
+    <description><![CDATA[]]></description>
+</item><item>
     <title>development</title>
     <link>http://example.org/tags/development/</link>
     <pubDate>Tue, 28 Dec 2021 00:00:00 &#43;0000</pubDate><author>
@@ -16,13 +23,6 @@
     <pubDate>Sat, 18 Dec 2021 00:00:00 &#43;0000</pubDate><author>
         <name>Alex Lueng</name>
     </author><guid>http://example.org/tags/linux-vim-algorithm/</guid>
-    <description><![CDATA[]]></description>
-</item><item>
-    <title>life</title>
-    <link>http://example.org/tags/life/</link>
-    <pubDate>Sun, 12 Sep 2021 00:00:00 &#43;0000</pubDate><author>
-        <name>Alex Lueng</name>
-    </author><guid>http://example.org/tags/life/</guid>
     <description><![CDATA[]]></description>
 </item><item>
     <title>Life and Tech</title>
